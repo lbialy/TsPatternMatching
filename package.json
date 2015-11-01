@@ -10,6 +10,9 @@
     "README.md"
   ],
   "directories": {},
+  "typescript": {
+    "definition": "dist/tspatternmatching.d.ts"
+  },
   "scripts": {
     "test": "gulp test"
   },
