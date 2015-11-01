@@ -1,0 +1,42 @@
+{
+  "name": "tspatternmatching",
+  "version": "0.1.0",
+  "description": "Typesafe pattern matching emulation for TypeScript",
+  "main": "dist/tspatternmatching.js",
+  "files": [
+    "dist",
+    "tspatternmatching.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "directories": {},
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lbialy/TsPatternMatching"
+  },
+  "keywords": [
+    "pattern matching",
+    "typesafe",
+    "typescript"
+  ],
+  "author": {
+    "name": "Łukasz Biały",
+    "url": "https://github.com/lbialy"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tsc": "^1.1.1",
+    "gulp-tsd": "0.0.4",
+    "mocha": "^2.3.3",
+    "run-sequence": "^1.1.4",
+    "should": "^7.1.1",
+    "tsd": "^0.6.5",
+    "typescript": "^1.6.2"
+  }
+}

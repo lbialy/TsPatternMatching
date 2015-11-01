@@ -1,0 +1,10 @@
+node_modules/*
+typings/
+test/bin/*
+test/*.js
+test/*.js.map
+.idea/
+*.js
+*.js.*
+!gulpfile.js
+!dist/*
